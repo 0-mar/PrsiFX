@@ -1,0 +1,67 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.deckBtn{
+	-fx-background-image: url('/application/image/assets/deck.png');
+}
+.deckBtn:hover{
+	-fx-background-image: url('/application/image/assets/deck_hover.png');
+}
+
+.cardButton{
+	-fx-background-color: transparent;
+	fx-border-color: white;
+	-fx-border-width: 5;
+}
+
+.cards-left-label{
+	-fx-text-fill:
+		linear-gradient(#dede09, #a88d20),
+		linear-gradient(#8a6721, #734a24);
+}
+
+.cardButton:hover{
+	-fx-background-image: url('/application/image/assets/card_hover.png');
+	
+	-fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-scale-z: 1.1;
+}
+
+.anchor-pane{
+	-fx-background-image: url('/application/image/assets/table.jpg');
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.scroll-pane{
+	-fx-background-color: transparent;
+	/*-fx-background-image: url('/application/image/assets/table.jpg');*/
+}
+
+.scroll-pane .scroll-bar:vertical{
+	-fx-background-color: black;
+	fx-border-color: white;
+	-fx-border-width: 5;
+}
+
+.scroll-pane .scroll-bar:vertical .thumb {
+    -fx-background-color: linear-gradient(blue, skyblue);
+    -fx-background-radius: 5em;
+}
+
+.scroll-pane .scroll-bar:vertical .increment-button, .decrement-button {
+    -fx-background-color: linear-gradient(blue, skyblue);
+    -fx-border-color: transparent;
+}
+
+.AcePanel{
+	-fx-background-color: #1c1306;
+	-fx-background-radius: 5;
+	-fx-border-color: white;
+    -fx-border-width: 5;
+    -fx-border-radius: 6; 
+}
+.AcePanel:hover {
+	-fx-opacity: 0.8;
+}

@@ -1,0 +1,21 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.message-label{
+	-fx-background-color: rgba(122, 81, 15, 0.5);
+	-fx-background-radius: 5;
+	-fx-font-family: "Sans Serif";
+	-fx-font-size: 80;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+	-fx-font-weight: bold;
+}
+
+.info-label{
+	-fx-font-family: "Sans Serif";
+	-fx-font-size: 40;
+	-fx-text-fill: royalblue;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+	
+}
+
+.end-screen{
+	-fx-background-image: url('/application/image/assets/screen.jpg');
+}
